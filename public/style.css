@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+  li {
+    display: inline;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    height: 4em;
+    background-color: black;
+    z-index: 1;
+  }
+
+  #travel-logo {
+    position: absolute;
+    float: left;
+    margin: .25em .75em;
+    height: 5em;
+    width: 5em;
+  }
+
+  nav a {
+    position: relative;
+    float: right;
+    margin: 0 1.5em;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+    #map {
+    height: 100vh;
+    width: 100vw;
+  }
